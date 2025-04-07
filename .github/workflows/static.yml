@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vargasti Consultoria em TI</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4; color: #333; }
+    header, footer { background-color: #0d1b2a; color: #fff; padding: 20px 10%; text-align: center; }
+    section { padding: 40px 10%; }
+    h1, h2, h3 { color: #0d1b2a; }
+    .cta { background-color: #1b263b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; }
+    .servicos { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .card { background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .contato a { color: #1b263b; text-decoration: none; }
+    @media (max-width: 768px) {
+      .servicos { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vargasti Consultoria em TI</h1>
+    <p>Implantação de Servidores | Active Directory | Segurança de Dados</p>
+    <a href="#contato" class="cta">Solicite um Orçamento</a>
+  </header>
+
+  <section>
+    <h2>Quem Sou</h2>
+    <p>Sou Silvio Luiz, especialista em infraestrutura de TI. Atuo com soluções práticas, seguras e econômicas para servidores e segurança de dados de pequenas e médias empresas.</p>
+  </section>
+
+  <section>
+    <h2>Serviços</h2>
+    <div class="servicos">
+      <div class="card">
+        <h3>Consultoria de Hardware</h3>
+        <p>Análise do ambiente atual e recomendação de equipamentos ideais.</p>
+      </div>
+      <div class="card">
+        <h3>Servidor de Arquivos</h3>
+        <p>Implantação e organização de dados com controle de acesso e segurança.</p>
+      </div>
+      <div class="card">
+        <h3>Active Directory</h3>
+        <p>Criação de domínio, organização por setores, controle de acesso e políticas de segurança.</p>
+      </div>
+      <div class="card">
+        <h3>Suporte Remoto</h3>
+        <p>Atendimento remoto com SLA de até 48h e plano de suporte contínuo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Benefícios</h2>
+    <ul>
+      <li>🔒 Segurança dos dados da empresa</li>
+      <li>🧩 Organização e controle de usuários e permissões</li>
+      <li>💰 Redução de retrabalho e perdas</li>
+      <li>📈 Escalabilidade e estrutura pronta para crescer</li>
+    </ul>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Entre em Contato</h2>
+    <p>📧 <a href="mailto:silvio@vargasti.com">silvio@vargasti.com</a></p>
+    <p>📱 <a href="https://wa.me/5518981116008" target="_blank">Fale comigo no WhatsApp</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vargasti Consultoria em TI. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
